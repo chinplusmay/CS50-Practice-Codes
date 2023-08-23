@@ -1,0 +1,9 @@
+// note for strings
+suppose a string 
+string s = "HI!"   
+->here is the string of 3 character + \0 at end
+the address of s is same as of 'H'(the very first letter of string)
+becoz we can go byte after byte after H until we see null char(\0) 
+->THERE IS NO STRING FN IN C U CAN IT USING CS50 LIB
+basically its a pointer to a character--> char *s = "HI!"//
+ 

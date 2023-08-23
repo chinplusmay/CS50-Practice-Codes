@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            function greet()
+            {
+                let name = document.querySelector('#name').value;
+                alert('hello, '+name)
+            }
+        </script>
+        <title> greetjs </title>
+
+    </head>
+    <body>
+        <form onsubmit="greet(); return false;">
+            <input autofocus autocomplete="off" id="name" placeholder="Name" type="text">
+            <button type="submit">Greet</button>
+        </form>
+    </body>
+</html>
+
+
+
+<!--
+    here js is included in body also see greetjs2 its perfecto
+-->    
